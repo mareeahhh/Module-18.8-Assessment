@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Front-end foundations: HTML forms</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <main></main>
+  </body>
+</html>
+<!-- making email form need NAME EMAIL & MESSAGE -->
+<form>
+    <div class="div-1"> 
+    <label for="name">Name:</label>
+    </div>
+    <div class="div-2">
+        <input 
+        id="name" 
+        type="text" 
+        name="name"
+        />
+    </div>   
+    <div class="div-3">  
+        <label for="email">Email:</label>
+    </div>
+    <div class="div-4">
+        <input 
+        id="email" 
+        type="text" 
+        name="email"
+        />
+    </div>
+    <div class="div-5"> 
+        <label for="form=message">Your message:</label>
+    </div>
+      <div class="div-6">
+        <textarea
+          id="form-message"
+          name="message"
+          autofocus="on"
+          required
+        ></textarea>
+      </div> 
+    <button type="submit"> Submit</button>
+</form>

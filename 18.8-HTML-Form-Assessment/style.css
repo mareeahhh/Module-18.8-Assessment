@@ -1,0 +1,20 @@
+/* use width input to make text boxes longer and set to 100% */
+
+body {
+    padding: 10px;
+  }
+
+  .div-2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .div-4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .div-6 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
